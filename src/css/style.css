@@ -69,6 +69,7 @@ body {
     align-items: center;
     margin-top: 10px;
     gap: 10px; /* Espaço entre os planetas */
+    flex-wrap: wrap;
 }
 
 .planet {
@@ -344,7 +345,7 @@ body {
     }
 
     .options {
-        padding-bottom: 24px;
+        padding-bottom: 190px;
     }
 
     #play-again-button {
@@ -358,6 +359,7 @@ body {
     #result {
         padding-top: 24px;
         font-weight: 400;
+        padding-bottom: 200px;
     }
 
     #result-container {
